@@ -1,7 +1,7 @@
 import { request, gql } from 'graphql-request';
 import { resolve } from 'styled-jsx/css';
 
-const graphqlAPI = "https://api-ap-south-1.hygraph.com/v2/clkjl6wc311j601uq6nat06zr/master";
+const graphqlAPI = ""; //Add your api here
 
 export const getPosts = async () => {
   const query = gql`
