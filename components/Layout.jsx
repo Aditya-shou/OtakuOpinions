@@ -1,16 +1,14 @@
-import React, { Children } from 'react'
-import { Header } from './'
+import React from 'react';
+import Header from './Header';
 
-const Layout = ({children}) => {
-  return (
-    <>
-        <Header/>
-        {children}
-    </>
-  )
-}
+const Layout = ({ children }) => (
+  <>
+    <Header />
+    {children}
+  </>
+);
 
-export default Layout
+export default Layout;
 
 /* 
     The use of children over here is very useful
