@@ -4,7 +4,7 @@ and will be treated as an API endpoint instead of a page.  */
 
 import { GraphQLClient, gql } from "graphql-request"
 
-const graphqlAPI = ""; //Add your API here
+const graphqlAPI = "https://api-ap-south-1.hygraph.com/v2/clkjl6wc311j601uq6nat06zr/master"; //Add your API here
 
 export default function comments(req, res) {
   const graphQLClient = new GraphQLClient(graphqlAPI,{
